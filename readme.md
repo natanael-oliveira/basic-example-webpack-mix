@@ -50,10 +50,11 @@ mix.js('src/js/app.js', 'dist/')
 #### package.json
 ```JSON
     "webpack-mix": "^3.0.0",
-    //resolve varáveis de ambiente
-    "cross-env": "^7.0.3"
 
-    // pré-processadores
+    /* resolve varáveis de ambiente */
+    "cross-env": "^7.0.3",
+
+    /* pré-processadores */
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.45.0",
     "sass-loader": "^8.0.2",
