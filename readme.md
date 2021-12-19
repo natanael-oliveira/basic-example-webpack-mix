@@ -12,7 +12,7 @@
 
 ```JS
 git clone https://github.com/natanael-oliveira/basic-example-webpack-mix
-cd example-webpack-mix
+cd basic-example-webpack-mix
 npm install
 ```
 
