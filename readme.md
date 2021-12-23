@@ -16,13 +16,13 @@ cd basic-example-webpack-mix
 npm install
 ```
 
-## Executar projeto
+## Executar projeto localmente
 ```JS
 npm hot // open browser localhost:8080
 ```
 ![index.html](/src/images/index.png)
 
-## Estrutura do projeto
+## Estrutura de pastas
     |--dist/
     |--node_modules/
     |--src/
@@ -46,21 +46,15 @@ mix.js('src/js/app.js', 'dist/')
 
 ```
 
-## Dependências
+## Dependências Necessárias
 #### package.json
 ```JSON
     "webpack-mix": "^3.0.0",
 
     /* resolve varáveis de ambiente */
     "cross-env": "^7.0.3",
-
-    /* pré-processadores */
-    "resolve-url-loader": "^3.1.0",
-    "sass": "^1.45.0",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.14",
 ```
-## Scripts
+## Scripts do projeto
 #### package.json
 ```JSON
 "scripts": {
