@@ -11,7 +11,7 @@
 ## Instalação
 
 ```JS
-git clone https://github.com/natanael-oliveira/example-webpack-mix
+git clone https://github.com/natanaeldeveloper/example-webpack-mix
 cd basic-example-webpack-mix
 npm install
 ```
